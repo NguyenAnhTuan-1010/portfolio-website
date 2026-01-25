@@ -1,0 +1,42 @@
+[
+  {
+    "name": "VLSI Physical Design Fundamentals",
+    "desc": "Hands-on training project covering the complete IC physical design flow, including floorplanning concepts, placement, routing fundamentals, and basic timing awareness.",
+    "image": "vlsi",
+    "category": "semiconductor",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Standard Cell Layout Design",
+    "desc": "Designed standard cell layouts for basic logic gates (INV, NAND, NOR) using stick diagrams and layout rules, focusing on DRC/LVS clean designs.",
+    "image": "stdcell",
+    "category": "semiconductor",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Logic Gates Stick Diagram",
+    "desc": "Created stick diagrams for CMOS logic gates to understand transistor placement, diffusion sharing, and metal routing before layout implementation.",
+    "image": "stick",
+    "category": "semiconductor",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Chip Design Flow Study",
+    "desc": "Studied the complete digital IC design flow from RTL to GDSII, including synthesis concepts, standard cell usage, and physical verification overview.",
+    "image": "chip",
+    "category": "semiconductor",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  }
+]
