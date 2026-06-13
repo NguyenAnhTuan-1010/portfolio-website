@@ -1219,13 +1219,23 @@ form .button-area {
   transition: 1s linear;
   z-index: 1000;
 }
+}
 #scroll-top.active {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
 /* =========================================
    FORCE CENTER EDUCATION (OVERRIDE)
    ========================================= */
+
+#education {
+  width: 100% !important;
+  display: block !important;
+  clear: both !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
 
 #education .box-container {
   display: flex !important;
@@ -1233,6 +1243,7 @@ form .button-area {
   align-items: center !important;
   justify-content: center !important;
   width: 100% !important;
+  margin: 0 auto !important;
 }
 
 #education .box-container .box {
@@ -1248,7 +1259,7 @@ form .button-area {
   box-shadow: 0 10px 25px rgba(0,0,0,0.12) !important;
   padding: 30px 40px !important;
   gap: 30px !important;
-  transform: none; /* Let ScrollReveal handle its transform, but provide a clean base */
+  transform: none;
 }
 
 #education .box-container .box .image {
