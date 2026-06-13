@@ -1224,75 +1224,47 @@ form .button-area {
 }
 /* scroll top ends */
 /* =========================================
-   FORCE CENTER EDUCATION (OVERRIDE TEMPLATE)
+   FORCE CENTER EDUCATION (OVERRIDE)
    ========================================= */
 
-/* Center the whole Education section content */
-section.education {
+#education .box-container {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-}
-
-/* Make box-container centered with auto margin */
-section.education .box-container {
+  justify-content: center !important;
   width: 100% !important;
-  max-width: 1100px !important;
-  margin: 0 auto !important;
-
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-
-  gap: 40px !important;
-
-  /* remove template offsets */
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  left: auto !important;
-  right: auto !important;
-  transform: none !important;
 }
 
-/* Force each card to be centered */
-section.education .box-container .box {
-  width: min(900px, 90%) !important;
-  margin: 0 auto !important;
-
+#education .box-container .box {
+  width: 85% !important;
+  max-width: 800px !important;
+  margin: 15px auto !important;
   display: flex !important;
+  flex-direction: row !important;
   align-items: center !important;
   justify-content: flex-start !important;
-
-  gap: 30px !important;
-  padding: 30px 40px !important;
-
-  /* remove template offsets */
-  float: none !important;
-  left: auto !important;
-  right: auto !important;
-  transform: none !important;
-
   background: #fff !important;
   border-radius: 12px !important;
   box-shadow: 0 10px 25px rgba(0,0,0,0.12) !important;
+  padding: 30px 40px !important;
+  gap: 30px !important;
+  transform: none; /* Let ScrollReveal handle its transform, but provide a clean base */
 }
 
-/* Image circle */
-section.education .box-container .box .image {
+#education .box-container .box .image {
   flex: 0 0 140px !important;
   height: 140px !important;
 }
 
-section.education .box-container .box .image img {
+#education .box-container .box .image img {
   width: 140px !important;
   height: 140px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
 }
 
-/* Mobile */
 @media (max-width: 768px) {
-  section.education .box-container .box {
+  #education .box-container .box {
     flex-direction: column !important;
     text-align: center !important;
     padding: 25px 20px !important;
