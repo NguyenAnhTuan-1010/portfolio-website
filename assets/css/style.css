@@ -214,6 +214,9 @@ header .navbar ul li a:hover {
 .home .image img {
   width: 100%;
   max-width: 300px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
   margin-left: auto;
   margin-right: auto;
   display: block;
