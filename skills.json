@@ -1,20 +1,15 @@
 [
-  { "name": "VLSI Physical Design", "icon": "https://img.icons8.com/fluency/48/microchip.png" },
-  { "name": "Standard Cell Layout", "icon": "https://img.icons8.com/fluency/48/cpu.png" },
+  { "name": "VLSI Physical Design", "icon": "https://img.icons8.com/color/48/integrated-circuit.png" },
+  { "name": "Standard Cell Layout", "icon": "https://img.icons8.com/color/48/cpu.png" },
   { "name": "Stick Diagram", "icon": "https://img.icons8.com/fluency/48/flow-chart.png" },
-  { "name": "Logic Gates Layout", "icon": "https://img.icons8.com/fluency/48/logic-gate-and.png" },
+  { "name": "Logic Gates Layout", "icon": "https://img.icons8.com/color/48/electronics.png" },
 
   { "name": "Digital Design Basics", "icon": "https://img.icons8.com/fluency/48/circuit.png" },
   { "name": "Chip Design Flow", "icon": "https://img.icons8.com/fluency/48/process.png" },
   { "name": "Scripting (Basic)", "icon": "https://img.icons8.com/fluency/48/source-code.png" },
 
-  { "name": "HTML", "icon": "https://img.icons8.com/color/48/html-5--v1.png" },
-  { "name": "CSS", "icon": "https://img.icons8.com/color/48/css3.png" },
-  { "name": "JavaScript", "icon": "https://img.icons8.com/color/48/javascript--v1.png" },
-
-  { "name": "Git", "icon": "https://img.icons8.com/color/48/git.png" },
   { "name": "GitHub", "icon": "https://img.icons8.com/fluency/48/github.png" },
 
-  { "name": "English", "icon": "https://img.icons8.com/fluency/48/english-to-chinese.png" },
+  { "name": "English", "icon": "https://img.icons8.com/color/48/great-britain.png" },
   { "name": "Vietnamese", "icon": "https://img.icons8.com/fluency/48/language.png" }
 ]
