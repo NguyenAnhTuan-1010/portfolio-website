@@ -186,7 +186,6 @@ header .navbar ul li a:hover {
   gap: 1.5rem;
   min-height: 100vh;
   align-items: center;
-  padding-top: 10rem;
 }
 .home #particles-js {
   position: absolute;
@@ -1308,5 +1307,12 @@ form .button-area {
     flex-direction: column !important;
     text-align: center !important;
     padding: 25px 20px !important;
+  }
+}
+
+/* DESKTOP HERO TWEAKS */
+@media (min-width: 769px) {
+  .home {
+    padding-top: 10rem;
   }
 }
